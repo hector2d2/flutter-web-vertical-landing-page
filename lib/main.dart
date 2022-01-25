@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Landing Page',
+      title: 'home',
       initialRoute: '/home',
       onGenerateRoute: RouterApp.router.generator,
     );
